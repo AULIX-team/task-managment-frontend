@@ -7,7 +7,7 @@ const TestPage = () => {
      <Sidebar/>
 
      {/*Main content*/}
-     <div style={{marginLeft: '284px'}}>
+     <div style={{marginLeft: '20%'}}>
        <Link to="/2">
          <div>Test Page</div>
        </Link>
