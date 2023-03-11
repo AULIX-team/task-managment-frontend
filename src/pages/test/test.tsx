@@ -1,10 +1,18 @@
 import { Link } from "react-router-dom";
+import { Sidebar } from "../../shared/Sidebar/Sidebar";
 
 const TestPage = () => {
   return (
-    <Link to="/2">
-      <div>Test Page</div>
-    </Link>
+   <div style={{display: 'flex'}}>
+     <Sidebar/>
+
+     {/*Main content*/}
+     <div style={{marginLeft: '20%'}}>
+       <Link to="/2">
+         <div>Test Page</div>
+       </Link>
+     </div>
+   </div>
   );
 };
 
